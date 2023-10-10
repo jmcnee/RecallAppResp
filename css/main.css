@@ -364,3 +364,19 @@ nav.secondary-nav ul li a {
     }
 
 }
+
+/* Animations; for all device size */
+
+.phone {
+    animation: subtleMove 2s alternate-reverse infinite ease-in-out
+
+}
+
+@keyframes subtleMove {
+    from {
+        transform: translateY(0)
+    }
+    to {
+        transform: translateY(15px)
+    }
+}
